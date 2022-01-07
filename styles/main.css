@@ -1,5 +1,6 @@
 main {
     display: flex;
+    justify-content: center;
 }
 
 .pageHeader {
@@ -17,13 +18,10 @@ main {
     margin: 1em;
 }
 
-h1 { /* class for "Fish Collection" */
-    display: flex;
-    flex-wrap: wrap; 
-    text-align: center;
-}
 p {
+    font-size: 25px;
     text-align: center;
+    font-weight: bold;
 }
 .fish_list {
     display: flex column;
@@ -60,7 +58,6 @@ p {
 .harvest_location {
     width: fit-content;
     display: flex column;
-    border: 3px solid red; 
     padding: 2em;
     margin: 1em;
 }
@@ -70,6 +67,7 @@ p {
     border: 3px solid rgb(251, 255, 0); 
     padding: 1em;
     margin: 1em;
+    width: 300px;
 }
 
 .locations {
@@ -85,4 +83,5 @@ p {
     border: 3px solid red; 
     padding: 2em;
     margin: 1em;
+    width: 300px;
 }

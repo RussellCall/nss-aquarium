@@ -27,6 +27,7 @@ p {
 .fish_list {
     display: flex column;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 img {
@@ -42,22 +43,27 @@ img {
 }
 
 .fish2 {
-    display: flex column;
+    display: flex;
     border: 3px solid red; 
     padding: 1em;
     margin: 1em;
 }
 
 .fish3 {
-    display: flex column;
+    display: flex;
     border: 3px solid red; 
     padding: 1em;
     margin: 1em;
 }
 
-.traits {
-    display: flex
+ul {
+    display: flex;
+    justify-content: center;
 }
+
+li{
+    margin: 10px 0;
+  }
 
 .harvest_location {
     width: fit-content;

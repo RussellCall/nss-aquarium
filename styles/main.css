@@ -1,32 +1,57 @@
+main {
+    display: flex;
+}
+
 .pageHeader {
     border: solid 1px rgb(80, 20, 220);
     padding: .5em;
     margin: 0.5em;
     text-align: center;
 }
-.list {
-    display: flex;  
-}
-.fish_harvest { /* Box for the fish list and descriptors */
 
+.fish_harvest { /* Box for the fish list and descriptors */
+    width: fit-content;
+    display: flex column;
+    border: 3px solid red; 
+    padding: 1em;
+    margin: 1em;
 }
+
 .list { /* class for "Fish Collection" */
     display: flex;
-    flex-wrap: wrap;  /* Let the rows wrap if there are too many */
+    flex-wrap: wrap;   Let the rows wrap if there are too many */
 }
+
 .fish_list {
-    display: flex;
+    display: flex column;
     flex-wrap: wrap;
 }
+
+.fish1 {
+    display: flex column;
+    border: 3px solid red; 
+    padding: 1em;
+    margin: 1em;
+}
+
+.fish2 {
+    display: flex column;
+    border: 3px solid red; 
+    padding: 1em;
+    margin: 1em;
+}
+
+.fish3 {
+    display: flex column;
+    border: 3px solid red; 
+    padding: 1em;
+    margin: 1em;
+}
+
 .traits {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.interest {
-    flex-basis: 16%;  /* Make each child element the same width */
-    border: 1px dotted crimson;
-    padding: 1em;
-    margin: 0.5em;
-}
-}
+
+

@@ -10,18 +10,21 @@ main {
 }
 
 .fish_harvest { /* Box for the fish list and descriptors */
-    width: fit-content;
+    width: 300px;
     display: flex column;
     border: 3px solid red; 
     padding: 1em;
     margin: 1em;
 }
 
-.list { /* class for "Fish Collection" */
+h1 { /* class for "Fish Collection" */
     display: flex;
-    flex-wrap: wrap;   Let the rows wrap if there are too many */
+    flex-wrap: wrap; 
+    text-align: center;
 }
-
+p {
+    text-align: center;
+}
 .fish_list {
     display: flex column;
     flex-wrap: wrap;
@@ -54,4 +57,32 @@ main {
     flex-wrap: wrap;
 }
 
+.harvest_location {
+    width: fit-content;
+    display: flex column;
+    border: 3px solid red; 
+    padding: 2em;
+    margin: 1em;
+}
 
+.travel_advice {
+    display: flex column;
+    border: 3px solid rgb(251, 255, 0); 
+    padding: 1em;
+    margin: 1em;
+}
+
+.locations {
+    display: flex column;
+    border: 3px solid rgb(251, 255, 0); 
+    padding: 1em;
+    margin: 1em;
+}
+
+.quotations {
+    width: fit-content;
+    display: flex column;
+    border: 3px solid red; 
+    padding: 2em;
+    margin: 1em;
+}
